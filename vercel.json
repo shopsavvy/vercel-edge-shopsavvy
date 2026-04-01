@@ -1,0 +1,15 @@
+{
+  "framework": "nextjs",
+  "regions": ["iad1"],
+  "functions": {
+    "app/api/search/route.ts": {
+      "runtime": "edge"
+    },
+    "app/api/price/[id]/route.ts": {
+      "runtime": "edge"
+    },
+    "app/api/deals/route.ts": {
+      "runtime": "edge"
+    }
+  }
+}
